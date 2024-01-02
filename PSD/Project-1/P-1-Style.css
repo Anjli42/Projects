@@ -1,0 +1,601 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: block;
+    margin-bottom: 48px;
+    padding-bottom: 98px;
+}
+
+.nav-container {
+    background-color: #b13941;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 18px;
+}
+
+ul li {
+    list-style-type: none;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "PT Serif";
+    font-size: 25px;
+}
+
+#bg {
+    display: block;
+}
+
+#bg::before {
+    content: "";
+    background: url(..//Project-1/imgs/bg.png);
+    position: absolute;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 820px;
+    z-index: -1;
+}
+
+.bg-text {
+    color: #feedda;
+    text-align: center;
+}
+
+.bg-text h1 {
+    font-size: 92px;
+    font-family: "Yeseva One";
+    font-weight: 400;
+    padding: 88px 0 75px;
+}
+
+.bg-text p {
+    font-size: 18px;
+    color: #fefefe;
+    font-weight: 400;
+    font-family: "PT Serif";
+}
+
+.bg-text .btn {
+    font-size: 20px;
+    padding: 10px 35px;
+    margin: 90px;
+    color: #feedda;
+    font-weight: 700;
+    font-family: "PT Serif";
+    border: none;
+    background-color: #b13941;
+}
+
+section {
+    display: block;
+}
+
+#About {
+    width: 100%;
+    height: 405px;
+    position: relative;
+}
+
+.About-Item {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 60px;
+    background-image: url(..//Project-1/imgs/bg-2.png);
+    background-size: cover;
+    position: absolute;
+    z-index: -1;
+}
+
+.Left-Item {
+    width: 35%;
+    margin-left: 50px;
+}
+
+.Left-Item img {
+    width: 50%;
+    margin-left: 98px;
+}
+
+.Right-Item {
+    margin-right: 65px;
+    width: 60%;
+}
+
+.Right-Item h3 {
+    font-size: 30px;
+    color: #feedda;
+    font-weight: 400;
+    font-family: "Yeseva One";
+    margin-bottom: 12px;
+}
+
+.Right-Item h2 {
+    font-size: 48px;
+    color: #feedda;
+    font-weight: 400;
+    font-family: "Yeseva One";
+    margin-bottom: 28px;
+}
+
+.Right-Item p {
+    font-size: 14px;
+    color: #feedda;
+    font-family: "PT Serif";
+    margin-bottom: 28px;
+}
+
+.btn-2 {
+    border: none;
+    font-size: 14px;
+    width: 165px;
+    height: 36px;
+    color: #b13941;
+    background-color: #f8eed3;
+    font-weight: 700;
+    font-family: "PT Serif";
+    text-align: center;
+}
+
+#Brand {
+    width: 100%;
+    height: 780px;
+}
+
+.C-Brand {
+    display: flex;
+    width: 100%;
+    background-color: #f8eed3;
+    gap: 135px;
+}
+
+.Left {
+    width: 40%;
+}
+
+.Right {
+    width: 60%;
+    margin-top: 98px;
+    padding-top: 40px;
+}
+
+.Right h2 {
+    font-size: 75px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Yeseva One";
+    margin-bottom: 48px;
+}
+
+.Right p {
+    font-size: 21px;
+    line-height: 33px;
+    color: #575757;
+    font-weight: 400;
+    font-family: "PT Serif";
+    margin-bottom: 25px;
+}
+
+.Right a {
+    color: #b13941;
+    font-weight: 400;
+    font-family: "PT Serif";
+}
+
+#Menu {
+    width: 100%;
+    height: 680px;
+    position: relative;
+}
+
+.Menu {
+    display: block;
+    height: 680px;
+    width: 100%;
+    background-image: url(..//Project-1/imgs/bg-3.png);
+    background-size: cover;
+    position: absolute;
+    z-index: -1;
+}
+
+.Text-Menu {
+    text-align: center;
+}
+
+.Text-Menu h1 {
+    font-size: 60px;
+    color: #f8eed3;
+    font-weight: 400;
+    font-family: "Yeseva One";
+    padding: 88px 0 5px;
+}
+
+.Text-Menu p {
+    font-size: 20px;
+    color: #f8eed3;
+    font-weight: 400;
+    font-family: "PT Serif";
+    margin-bottom: 45px;
+    padding: 30px;
+}
+
+.Menu-Box {
+    display: flex;
+    width: 100%;
+    gap: 45px;
+}
+
+.Box-Left {
+    width: 40%;
+}
+
+.Box-Left img {
+    width: 100%;
+}
+
+.Box-Right {
+    width: 60%;
+    background-color: white;
+}
+
+.Box-Right h2 {
+    font-size: 30px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Yeseva One";
+    margin: 0 11px;
+    padding: 13px;
+}
+
+.Box-Right p {
+    font-size: 14px;
+    color: #575757;
+    font-weight: 400;
+    font-family: "PT Serif";
+    margin: 0 21px;
+    padding: 5px;
+}
+
+.Box-Right .btn-3 {
+    font-size: 12px;
+    color: #feedda;
+    background-color: #b13941;
+    font-weight: 700;
+    font-family: "PT Serif";
+    text-align: center;
+    border: none;
+    width: 102px;
+    height: 28px;
+    margin: 12px 29px;
+}
+
+.Menu-Box-1 {
+    display: flex;
+    width: 33.33%;
+    height: 250px;
+    border: 2px solid white;
+}
+
+.Menu-Box-2 {
+    display: flex;
+    width: 33.33%;
+    height: 250px;
+    border: 2px solid white;
+}
+
+.Menu-Box-3 {
+    display: flex;
+    width: 33.33%;
+    height: 250px;
+    border: 2px solid white;
+}
+
+.Pagination {
+    position: absolute;
+    bottom: 5%;
+    left: 45%;
+}
+
+.Store {
+    display: block;
+    height: 990px;
+    width: 100%;
+    background-color: #f8eed3;
+}
+
+.Text-Store {
+    text-align: center;
+}
+
+.Text-Store h1 {
+    font-size: 60px;
+    color: #b13941;
+    font-weight: 400;
+    font-family: "Yeseva One";
+    padding: 88px 0 5px;
+}
+
+.Text-Store p {
+    font-size: 20px;
+    color: #b13941;
+    font-weight: 400;
+    font-family: "PT Serif";
+    margin-bottom: 45px;
+    padding: 30px;
+}
+
+.Store-Box {
+    display: flex;
+    width: 80%;
+    height: 580px;
+    margin: 0 auto;
+    gap: 35px;
+}
+
+.Store-Box-1 {
+    width: 33.33%;
+    position: relative;
+}
+
+.Box-Top {
+    width: 100%;
+    height: 50%;
+}
+
+.Box-Top img {
+    width: 100%;
+}
+
+.Box-Bottom {
+    width: 100%;
+    height: 50%;
+    background-color: #ffffff;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.Box-Bottom h2 {
+    font-size: 22px;
+    position: absolute;
+    left: 28%;
+    top: 48%;
+    color: #b13941;
+    border: 2px solid #b13941;
+    background-color: #feedda;
+    height: 40px;
+    width: 172px;
+    font-weight: 700;
+    font-family: "PT Serif";
+}
+
+
+.Box-Bottom p {
+    font-size: 18px;
+    line-height: 28px;
+    color: #575757;
+    font-weight: 400;
+    font-family: "PT Serif";
+    margin-bottom: 40px;
+}
+
+.Box-Bottom .btn-3 {
+    width: 98px;
+    height: 28px;
+    color: #feedda;
+    font-weight: 700;
+    font-family: "EB Garamond";
+    background-color: #b13941;
+    border: none;
+}
+
+.Store-Box-2 {
+    width: 33.33%;
+    position: relative;
+}
+
+.Store-Box-3 {
+    width: 33.33%;
+    position: relative;
+}
+
+#Profile {
+    width: 100%;
+    height: 700px;
+    position: relative;
+}
+
+.Profile-Item {
+    display: flex;
+    height: 680px;
+    width: 100%;
+    height: 700px;
+    background-image: url(..//Project-1/imgs/bg-3.png);
+    background-size: cover;
+    position: absolute;
+    z-index: -1;
+}
+
+.Left-P {
+    width: 50%;
+    margin: 92px 60px;
+    position: relative;
+}
+
+.m-1 {
+    position: absolute;
+    top: 37%;
+    left: 45%;
+}
+
+.Right-P {
+    width: 50%;
+    margin: 40px;
+    padding: 99px 6px;
+}
+
+.Right-P h2 {
+    font-size: 58px;
+    color: #feedda;
+    font-weight: 400;
+    font-family: "Yeseva One";
+    margin-bottom: 28px;
+    margin: 68px 0 34px;
+}
+
+.Right-P p {
+    font-size: 21px;
+    color: #feedda;
+    font-family: "PT Serif";
+    margin-bottom: 28px;
+    margin: 34px 10px 34px;
+}
+
+.Profile-Icon img {
+    margin: 7px 16px;
+}
+
+#Contacts {
+    width: 100%;
+    height: 775px;
+}
+
+.Contact-Us {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.Details-1 {
+    width: 40%;
+}
+
+.Details-2 {
+    width: 60%;
+    padding: 0px 0px 15px 96px;
+}
+
+.Details-2 h1 {
+    font-size: 55px;
+    color: #b13941;
+    font-weight: 400;
+    font-family: "Yeseva One";
+    margin-bottom: 12px;
+    padding: 32px 0px 42px 36px;
+}
+
+.Form {
+    padding: 4px 0px 46px 38px;
+}
+
+input[type*="text"] {
+    width: 70%;
+    height: 40px;
+    padding: 23px;
+    color: #b0b0b0;
+    font-weight: 400;
+    font-family: "Open Sans";
+}
+
+textarea {
+    padding: 20px;
+    color: #b0b0b0;
+    font-weight: 400;
+    font-family: "Open Sans";
+}
+
+.btn-4 {
+    border: none;
+    width: 175px;
+    height: 40px;
+    font-size: 22px;
+    color: #f8eed3;
+    background-color: #b13941;
+    font-weight: 700;
+    font-family: "PT Serif";
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer {
+    display: block;
+}
+
+.Footer-Item {
+    display: flex;
+    width: 100%;
+    height: 300px;
+    background-color: #b13941;
+    padding: 40px;
+}
+
+.F-Left {
+    width: 35%;
+    display: flex;
+}
+
+.F-Left .Text {
+    color: #f8eed3;
+    font-weight: 700;
+    font-family: "EB Garamond";
+    font-size: 22px;
+    line-height: 25px;
+    padding: 6px 0;
+}
+
+.F-Left .Text h2 {
+margin: 0 0 45px;
+}
+
+.F-Left .Text p {
+    margin: 0 0 45px;
+    font-weight: 400;
+}
+
+.F-Left .Text a {
+    color: #f8eed3;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+
+.F-Center {
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.F-Center .Text {
+    color: #f8eed3;
+    font-weight: 700;
+    font-family: "EB Garamond";
+    font-size: 20px;
+    line-height: 33px;
+}
+
+.F-Right {
+    width: 20%;
+    padding: 0 0 0 30px;
+}
+
+.F-Right .Text {
+    font-size: 17px;
+    line-height: 29px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "PT Serif";
+}
+
+.F-Right .Image-2 {
+    margin: 25px 0;
+}
+
+.Image-2 img {
+    margin: 0 10px;
+}

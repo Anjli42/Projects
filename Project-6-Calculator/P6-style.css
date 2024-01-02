@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    padding: 16px;
+    color: darkslategrey;
+}
+
+input {
+    padding: 16px 80px;
+    margin: 0 25px;
+    border: 2px solid gray;
+}
+
+.Container {
+        width: 380px;
+        height: 420px;
+        border: 2px solid gray;
+        margin: 50px auto;
+        background-color: bisque;
+    }
+
+button {
+    width: 20%;
+    padding: 12px 0;
+    margin: 4px 2px 4px 10px;
+    font-size: 14px;
+    background-color: rgb(250, 207, 214);
+}
+
+#btn {
+    width: 44%;
+    background-color: rgb(253, 146, 203) !important;
+}

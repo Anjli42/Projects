@@ -1,0 +1,606 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(243, 240, 240);
+    font-family: "Amazon Ember", Arial, sans-serif;
+}
+
+header {
+    display: block;
+}
+
+.Container {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    padding: 12px 12px;
+    gap: 30px;
+}
+
+.ITEM-1 {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    gap: 4px;
+}
+
+.nav-text {
+    display: flex;
+}
+
+.icon {
+    padding: 9px 2px;
+}
+
+.nav-tet {
+    padding: 4px 0;
+}
+
+.nav-txt p {
+    color: #ccc;
+    font-size: 12px;
+    padding: 2px;
+}
+
+.nav-txt h3 {
+    color: white;
+    font-size: 16px;
+}
+
+.ITEM-1 img {
+    width: 40%;
+    height: 100%;
+}
+
+.ITEM-2 {
+    width: 100%;
+    display: flex;
+    border: 2px solid orange;
+    border-radius: 3px;
+}
+
+.ITEM-2 .b-1 {
+    background-color: #E6E6E6;
+    color: black;
+    padding: 0 10px;
+}
+
+.ITEM-2 .b-2 {
+    background-color: rgb(245, 172, 35);
+    padding: 0 10px;
+}
+
+input {
+    width: 100%;
+    padding: 0 15px;
+    font-size: 14px;
+    font-weight: bolder;
+    border: none;
+}
+
+.ITEM-3 {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.txt-1 p {
+    color: white;
+    font-weight: normal;
+}
+
+.txt-1 h4 {
+    color: white;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.txt-2 {
+    display: flex;
+}
+
+.txt-2 h4 {
+    font-size: 15px;
+    font-weight: bolder;
+    padding: 10px 4px;
+}
+
+.Nav-Container {
+    display: flex;
+    background-color: #232F3E;
+    color: white;
+}
+
+.Nav-Items-1 {
+    width: 70%;
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    list-style-type: none;
+    padding: 15px 10px;
+    font-size: 14px;
+}
+
+li i {
+    margin: 0 6px;
+}
+
+.Nav-Items-2 {
+    width: 30%;
+    display: flex;
+}
+
+.Nav-Items-2 img {
+    width: 8%;
+    height: 80%;
+    margin: 4px 0;
+}
+
+.Nav-Items-2 p {
+    color: white;
+    font-size: 16px;
+    margin: 12px 6px;
+}
+
+section {
+    display: block;
+}
+
+#Section-1 {
+    position: relative;
+}
+
+.slider {
+    width: 100%;
+    height: 600px;
+    background-color: #eee;
+    margin: 0 auto;
+    position: relative;
+}
+
+.slide {
+    width: 100%;
+    height: 580px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    animation: fade 20s infinite;
+}
+
+.slide:nth-child(1) {
+    background: url(..//Project-4-Amazon/Imgs/bg.jpg)no-repeat center center/cover;
+}
+
+.slide:nth-child(2) {
+    animation-delay: 5s;
+    background: url(..//Project-4-Amazon/Imgs/bg-2.jpg)no-repeat center center/cover;
+}
+
+.slide:nth-child(3) {
+    animation-delay: 10s;
+    background: url(..//Project-4-Amazon/Imgs/bg-3.jpg)no-repeat center center/cover;
+}
+
+.slide:nth-child(4) {
+    animation-delay: 15s;
+    background: url(..//Project-4-Amazon/Imgs/bg-4.jpg)no-repeat center center/cover;
+}
+
+.slide:nth-child(5) {
+    animation-delay: 20s;
+    background: url(..//Project-4-Amazon/Imgs/bg-5.jpg)no-repeat center center/cover;
+}
+
+.slide:nth-child(6) {
+    animation-delay: 25s;
+    background: url(..//Project-4-Amazon/Imgs/bg-6.jpg)no-repeat center center/cover;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    5% {
+        opacity: 1;
+    }
+
+    25% {
+        opacity: 1;
+    }
+
+    30% {
+        opacity: 0;
+    }
+}
+
+.Center {
+    position: absolute;
+    top: 46%;
+}
+
+.Grid {
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    gap: 20px;
+    width: 96%;
+    margin: 0 auto;
+}
+
+div[class*="Box"] {
+    background-color: white;
+}
+
+.Grid img {
+    padding: 18px 12px;
+    width: 50%;
+}
+
+.Grid h2 {
+    padding-top: 32px;
+    text-align: center;
+}
+
+.Part {
+    display: flex;
+}
+
+.Grid a {
+    text-decoration: none;
+    color: #007185;
+    padding: 10px 12px;
+}
+
+.Grid a:hover {
+    color: rgb(248, 26, 26);
+    text-decoration: underline;
+}
+
+.Box-4 img {
+    width: 70%;
+    margin: 0 52px;
+}
+
+.Box-4 p {
+    font-size: 14px;
+}
+
+.Box-4-Text {
+    padding: 10px 10px;
+}
+
+.Box-4-Text h5 {
+    text-align: left;
+    padding: 6px 0;
+    font-weight: bolder;
+}
+
+.Grid-2 {
+    display: grid;
+    grid-template-columns: repeat(1, 3fr);
+    gap: 20px;
+    width: 96%;
+    margin: 20px auto;
+}
+
+.Grid-2 .Text {
+    display: flex;
+    padding: 16px 12px;
+}
+
+.Grid-2 .Text a {
+    text-decoration: none;
+    color: #007185;
+    padding: 6px 16px;
+}
+
+.Grid-2 .Text a:hover {
+    color: rgb(248, 26, 26);
+    text-decoration: underline;
+}
+
+.Grid-2-Imgs {
+    padding: 0px 5px 20px;
+}
+
+.Grid-2-Imgs img {
+    display: grid;
+    padding: 0 36px;
+}
+
+.Main-Box {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Grid-2-Text {
+    display: flex;
+    justify-content: center;
+    padding: 12px 22px;
+}
+
+p {
+    color: #CC0C39;
+    font-size: 12px;
+    font-weight: bolder;
+    padding: 3px 5px;
+}
+
+h5 {
+    font-weight: normal;
+    text-align: center;
+}
+
+button {
+    background-color: #CC0C39;
+    color: #ffffff;
+    border: none;
+    padding: 2px 6px;
+}
+
+.Box-10,
+.Box-11 .Main-Box {
+    padding-bottom: 22px;
+}
+
+.Grid-3 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.Grid-3 img {
+    padding: 18px 12px;
+    width: 50%;
+}
+
+.Box-12 img {
+    width: 48%;
+    height: 0%;
+}
+
+.Box-14 img {
+    width: 48%;
+}
+
+.Grid-3 h2 {
+    padding-top: 32px;
+    text-align: center;
+}
+
+.Part {
+    display: flex;
+}
+
+.Grid-3 a {
+    text-decoration: none;
+    color: #007185;
+    padding: 10px 12px;
+}
+
+.Grid-3 a:hover {
+    color: rgb(250, 45, 45);
+    text-decoration: underline;
+}
+
+.Grid-3 .Text {
+    display: flex;
+    justify-content: space-around;
+    color: black;
+    font-size: 13px;
+}
+
+.Grid-3 .Text p {
+    color: black;
+    font-size: 13px;
+}
+
+.Box-Img img {
+    width: 100%;
+}
+
+.Box-17 img {
+    margin: 0 87px;
+}
+
+.Box-18 img {
+    margin: 0 87px;
+}
+
+.Grid-5 {
+    display: grid;
+    gap: 20px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.Box-20 {
+    padding: 0px 5px 20px;
+}
+
+.Grid-6 {
+    gap: 20px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.Grid-7 {
+    display: Grid;
+    gap: 20px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.Box-Flex {
+    display: flex;
+    width: 100%;
+    padding: 0 10px 12px;
+}
+
+.Video {
+    width: 35%;
+}
+
+.Multi-Img {
+    display: flex;
+    background-color: #ffffff;
+    gap: 8px;
+    width: 65%;
+}
+
+.IMG {
+    border: 2px solid lightgrey;
+    border-radius: 6px;
+    width: 25%;
+}
+
+.IMG img {
+    width: 50%;
+    margin: 0 55px;
+}
+
+.IMG p {
+    color: black;
+    font-size: 12px;
+}
+
+footer {
+    display: block;
+}
+
+.Footer {
+    background-color: white;
+}
+
+.Footer-1 h5 {
+    color: white;
+    background-color: #374559;
+    padding: 15px 0;
+}
+
+.F-1 {
+    background-color: #232F3E;
+}
+
+.F-Item {
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.Item h2 {
+    color: #FFF;
+    font-size: 15px;
+    padding: 12px 0;
+}
+
+.Item p {
+    color: #DDD;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 5px 0;
+}
+
+.F-Item-2 {
+    padding: 40px 0;
+    width: 65%;
+    margin: 0 auto;
+}
+
+.F-Item-2 .Item-1 {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.Logo {
+    width: 25%;
+}
+
+.Logo img {
+    width: 100%;
+    padding-top: 4px;
+}
+
+select {
+    background-color: transparent;
+    color: white;
+    padding: 8px 20px;
+}
+
+option {
+    color: black;
+}
+
+.Item-2 {
+    width: 100%;
+    display: flex;
+}
+
+.Item-2 p {
+    color: white;
+    font-weight: normal;
+    padding: 28px 8px;
+}
+
+.Item-2 p:hover {
+    text-decoration: underline;
+}
+
+.Footer-2 {
+    background-color: #131A22;
+    padding: 40px 0;
+}
+
+.Ftr-1 {
+    width: 60%;
+    display: flex;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+.F-2-Text {
+    padding: 10px 50px;
+}
+
+h4 {
+    color: #DDD;
+    font-size: 13px;
+    font-weight: normal;
+    padding-left: 2px;
+}
+
+.F-2-Text p {
+    color: #999;
+    font-weight: normal;
+    padding: 0 2px;
+}
+
+.Ftr-2 {
+    width: 25%;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+.Ftr-Item-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Ftr-Item-2 {
+    padding: 2px 48px;
+}

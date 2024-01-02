@@ -1,0 +1,758 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: block;
+    width: 100%;
+    height: 780px;
+}
+
+header::before {
+    content: "";
+    background: url(..//Project-2/Images/bg.png);
+    background-size: 100% 100%;
+    position: absolute;
+    width: 100%;
+    height: 780px;
+    z-index: -1;
+}
+
+.nav-Items {
+    display: flex;
+    width: 100%;
+    background-color: #21243d;
+    color: #ffffff;
+    align-items: center;
+    padding: 20px 70px;
+}
+
+.nav-logo {
+    width: 20%;
+}
+
+.nav-container {
+    width: 65%;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul li {
+    list-style-type: none;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+
+.nav-icon {
+    width: 15%;
+}
+
+.nav-icon i {
+    font-size: 22px;
+    padding-left: 98px;
+    margin-left: 98px;
+    color: #ffffff;
+}
+
+#bg {
+    display: block;
+}
+
+.bg-text {
+    color: #ffffff;
+    padding: 98px 96px;
+    margin: 32px 25px;
+    font-family: "Montserrat";
+}
+
+.bg-text h1 {
+    font-size: 125px;
+    font-weight: 700;
+}
+
+.bg-text p {
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 40px;
+}
+
+.bg-text .btn {
+    color: #ffffff;
+    width: 185px;
+    margin-top: 38px;
+    height: 35px;
+    border: 2px solid #21243d;
+    background-color: #21243d;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: "Montserrat";
+}
+
+section {
+    display: block;
+}
+
+#Menu {
+    width: 100%;
+    height: 600px;
+    background-color: #21243d;
+}
+
+.Span-Menu {
+    position: relative;
+    overflow-x: hidden;
+}
+
+img[class*="round"]{
+    width: 150px;
+}
+.round-1{
+    position: absolute;
+    top: -30px;
+    right: -40px;
+}
+.round-2{
+    position: absolute;
+    bottom: 0px;
+    left: -56px;
+}
+img[class*="zig-zag"]{
+    width: 80px;
+}
+.zig-zag-1{
+    position: absolute;
+    top: 145px;
+    left: 90px;
+}
+.zig-zag-2{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+
+}
+img[class*="dot"]{
+    width: 80px;
+}
+.dot-1{
+    position: absolute;
+    top: -70px;
+    left: 300px;
+    transform: rotate(90deg);
+}
+.dot-2{
+    position: absolute;
+    bottom: 165px;
+    right: -20px;
+    width: 60px !important;
+}
+
+.Menu-Item {
+    width: 100%;
+    height: 100%;
+    padding: 0 99px 0 99px;
+}
+
+.Text-Menu {
+    width: 100%;
+    height: 40%;
+    font-family: "Montserrat";
+    color: #ffffff;
+    text-align: center;
+    padding: 45px 99px 0 99px;
+    margin: 0 99px 0 25px;
+}
+
+.Text-Menu h1 {
+    font-size: 55px;
+    font-weight: 700;
+}
+
+.Text-Menu p {
+    font-size: 23px;
+    font-weight: 400;
+    padding: 30px 99px 0 99px;
+    margin: 0 99px 0 99px;
+}
+
+.Card-Menu {
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    padding: 23px;
+}
+
+.Text {
+    width: 33.33%;
+    text-align: center;
+}
+
+div[class*="Cards"] {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.Cards-1 {
+    background: url(..//Project-2/Images/Card-1.png)no-repeat center center/cover;
+}
+
+.Cards-2 {
+    background: url(..//Project-2/Images/Card-2.png)no-repeat center center/cover;
+}
+
+.Cards-3 {
+    background: url(..//Project-2/Images/Card-3.png)no-repeat center center/cover;
+}
+
+.Text h2 {
+    color: #ffffff;
+    font-family: "Montserrat";
+    padding: 8px;
+}
+
+.Text p {
+    color: #ffffff;
+    font-family: "Montserrat";
+    padding: 0 50px 0 60px;
+}
+
+#Menu-Details-1 {
+    display: block;
+}
+
+.Span-M-1 {
+    position: relative;
+    overflow-x: hidden;
+}
+
+img[class*="round"]{
+    width: 150px;
+}
+.round-3{
+    position: absolute;
+    top: 113px;
+    left: 174px;
+}
+.round-4{
+    position: absolute;
+    bottom: 35px;
+    right: -28px;
+}
+img[class*="zig-zag"]{
+    width: 80px;
+}
+.zig-zag-3{
+    position: absolute;
+    top: 99px;
+    right: 628px;
+}
+img[class*="dot"]{
+    width: 80px;
+}
+.dot-3{
+    position: absolute;
+    bottom: 15px;
+    left: 30px;
+    width: 60px !important;
+}
+.dot-4{
+    position: absolute;
+    top: 15px;
+    right: 30px;
+    width: 60px !important;
+}
+
+.Details-1 {
+    display: flex;
+    background-color: #fac169;
+    width: 100%;
+    align-items: center;
+    padding: 80px 99px 40px 40px;
+}
+
+.Details-1 .img {
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    margin: 0 auto;
+    background: url(..//Project-2/Images/Card-1.png)no-repeat center center/cover;
+    z-index: 1;
+}
+
+.Details-1 .text {
+    width: 50%;
+    color: #21243d;
+    padding: 98px 100px 79px 81px;
+    font-family: "Montserrat";
+}
+
+.Details-1 .text h2 {
+    font-weight: 700;
+    font-size: 70px;
+}
+
+.Details-1 .text p {
+    margin-top: 38px;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.Details-1 .text .btn-2 {
+    color: #ffffff;
+    width: 185px;
+    margin-top: 38px;
+    height: 35px;
+    border: 2px solid #21243d;
+    background-color: #21243d;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: "Montserrat";
+}
+
+#Statistics {
+    display: block;
+}
+
+.Span-M-2 {
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+img[class*="round"]{
+    width: 150px;
+}
+.round-5{
+    position: absolute;
+    top: 46px;
+    right: 160px;
+}
+.round-6{
+    position: absolute;
+    bottom: -57px;
+    left: 368px;
+
+}
+img[class*="zig-zag"]{
+    width: 80px;
+}
+.zig-zag-5{
+    position: absolute;
+    top: 195px;
+    left: 202px;
+}
+.zig-zag-6{
+    position: absolute;
+    bottom: 74px;
+    right: 63px;
+
+}
+img[class*="dot"]{
+    width: 80px;
+}
+.dot-5{
+    position: absolute;
+    top: -13px;
+    left: 244px;
+    transform: rotate(90deg);
+}
+.dot-6{
+    position: absolute;
+    bottom: -12px;
+    right: 478px;
+    transform: rotate(90deg);
+}
+
+.Statistics {
+    background-color: #21243d;
+    padding: 0 99px 0 99px;
+}
+
+.S-Text {
+    width: 100%;
+    height: 40%;
+    font-family: "Montserrat";
+    color: #ffffff;
+    text-align: center;
+    padding: 45px 99px 0 99px;
+    margin: 0 99px 0 25px;
+}
+
+.S-Text h1 {
+    font-size: 55px;
+    font-weight: 700;
+}
+
+.S-Text p {
+    font-size: 23px;
+    font-weight: 400;
+    padding: 30px 99px 70px 99px;
+    margin: 0 99px 0 99px;
+}
+
+.Statistics-Item {
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+    padding-bottom: 99px;
+}
+
+.Statics {
+    width: 33.33%;
+    text-align: center;
+    padding-bottom: 99px;
+}
+
+div[class*="Statics-Round"] {
+    width: 200px;
+    height: 200px;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    color: #ffffff;
+    margin: 0 auto;
+    font-family: "Montserrat";
+}
+
+.Statics-Round-1 {
+    padding: 48px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.Statics-Round-2 {
+    padding: 48px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.Statics-Round-3 {
+    padding: 48px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+#Menu-Details-2 {
+    display: block;
+}
+
+.Span-M-3 {
+    position: relative;
+    overflow-x: hidden;
+}
+
+img[class*="round"]{
+    width: 150px;
+}
+.round-7{
+    position: absolute;
+    top: 86px;
+    right: 233px;
+}
+.round-8{
+    position: absolute;
+    bottom: 23px;
+    left: 453px;
+}
+img[class*="zig-zag"]{
+    width: 80px;
+}
+.zig-zag-7{
+    position: absolute;
+    top: 112px;
+    left: 190px;
+}
+img[class*="dot"]{
+    width: 60px;
+}
+.dot-7{
+    position: absolute;
+    top: -12px;
+    left: 634px;
+    transform: rotate(90deg);
+}
+.dot-8{
+    position: absolute;
+    bottom: 53px;
+    right: 50px;
+}
+
+.Details-2 {
+    display: flex;
+    background-color: #fac169;
+    width: 100%;
+    align-items: center;
+    padding: 80px 99px 80px 93px;
+}
+
+.Details-2 .img {
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    margin: 0 auto;
+    background: url(..//Project-2/Images/Card-2.png)no-repeat center center/cover;
+    z-index: 1;
+}
+
+.Details-2 .text {
+    width: 50%;
+    color: #21243d;
+    padding: 98px 0 81px 100px;
+    font-family: "Montserrat";
+}
+
+.Details-2 .text h2 {
+    font-weight: 700;
+    font-size: 70px;
+}
+
+.Details-2 .text p {
+    margin-top: 38px;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.Details-2 .text .btn-3 {
+    color: #ffffff;
+    width: 185px;
+    margin-top: 38px;
+    height: 35px;
+    border: 2px solid #21243d;
+    background-color: #21243d;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: "Montserrat";
+}
+
+#Our-Chef {
+    display: block;
+}
+
+.bg-img {
+    position: relative;
+}
+
+.bg-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.Circle {
+    position: absolute;
+    left: 43%;
+    bottom: 56%;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    background: url(..//Project-2/Images/img.png)no-repeat center center/cover;
+}
+
+.Info-Text {
+    position: absolute;
+    bottom: 20%;
+    text-align: center;
+    padding: 0 99px 20px 99px;
+    margin: 0 99px 0 99px;
+    color: #ffffff;
+    font-family: "Montserrat";
+}
+
+.Info-Text p {
+    padding: 0 77px 30px 60px;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.Info-Text h2 {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+#Menu-Details-3 {
+    display: block;
+}
+
+.Span-M-4 {
+    position: relative;
+    overflow-x: hidden;
+}
+
+img[class*="round"]{
+    width: 130px;
+}
+.round-9{
+    position: absolute;
+    top: 16px;
+    right: -29px;
+}
+.round-10{
+    position: absolute;
+    bottom: 26px;
+    left: 674px;
+}
+img[class*="zig-zag"]{
+    width: 80px;
+}
+.zig-zag-9{
+    position: absolute;
+    bottom: 124px;
+    left: 196px;
+}
+.zig-zag-10 {
+    position: absolute;
+    top: 60px;
+    right: 344px;
+}
+img[class*="dot"]{
+    width: 60px;
+}
+.dot-9{
+    position: absolute;
+    top: 15px;
+    left: 105px;
+    transform: rotate(90deg);
+}
+.dot-10{
+    position: absolute;
+    bottom: 58px;
+    right: 101px;
+}
+
+.Details-3 {
+    display: flex;
+    background-color: #fac169;
+    width: 100%;
+    align-items: center;
+    padding: 99px 35px 99px 60px;
+}
+
+.Details-3 .text {
+    text-align: center;
+    color: #21243d;
+    padding: 20px 99px 99px 81px;
+    margin: 10px 36px 0 33px;
+    font-family: "Montserrat";
+}
+
+.Details-3 .text h2 {
+    font-weight: 700;
+    font-size: 70px;
+}
+
+.Details-3 .text p {
+    padding: 0 99px 0 99px;
+    margin: 0 99px 0 99px;
+    margin-top: 38px;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.Form {
+    position: relative;
+}
+
+.Form input {
+    width: 52%;
+    height: 35px;
+    border: none;
+    padding-left: 20px;
+    border-radius: 20px;
+    margin-top: 78px;
+    font-family: "Montserrat";
+}
+
+.Form .btn-4 {
+    color: #ffffff;
+    width: 130px;
+    height: 35px;
+    border: 2px solid #21243d;
+    background-color: #21243d;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: "Montserrat";
+    position: absolute;
+    right: 24%;
+    top: 69%;
+}
+
+footer {
+    display: block;
+}
+
+.Footer {
+    display: flex;
+    background-color: #111111;
+    padding: 99px 35px 99px 60px;
+}
+
+.Footer-1 {
+    width: 40%;
+    padding: 99px 70px 99px 60px;
+    margin: 80px 0 80px 0;
+}
+
+.Footer-Text {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: "Montserrat";
+    padding: 0 40px 0 8px;
+}
+
+.Footer-Text h2 {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.Footer-Text p {
+    margin-top: 12px;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 0 99px 0 0px;
+}
+
+.Footer-Icon {
+    margin-top: 20px;
+}
+
+.Footer-Icon img {
+    width: 25px;
+    margin: 0 5px 8px;
+}
+
+.Footer-2 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+    padding: 99px 35px 99px 60px;
+    margin: 80px 0 80px 0;
+}
+
+.F-Text {
+    color: #ffffff;
+    font-family: "Montserrat";
+}
+
+.F-Text h3 {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.F-Text p {
+    margin-top: 12px;
+    font-size: 15px;
+    font-weight: 400;
+}

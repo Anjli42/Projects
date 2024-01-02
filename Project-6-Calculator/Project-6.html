@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="P6-style.css">
+   
+</head>
+
+<body>
+    <div class="Container">
+        <h1>Calculator</h1>
+        <input type="text" id="result">
+        <br>
+        <br>
+        <button onclick="clearResult()">C</button>
+        <button onclick="Value()">()</button>
+        <button onclick="Value()">%</button>
+        <button onclick="Value()">/</button>
+        <br>
+        <button onclick="Value()">7</button>
+        <button onclick="Value()">8</button>
+        <button onclick="Value()">9</button>
+        <button onclick="Value()">*</button>
+        <br>
+        <button onclick="Value()">4</button>
+        <button onclick="Value()">5</button>
+        <button onclick="Value()">6</button>
+        <button onclick="Value()">-</button>
+        <br>
+        <button onclick="Value()">1</button>
+        <button onclick="Value()">2</button>
+        <button onclick="Value()">3</button>
+        <button onclick="Value()">+</button>
+        <br>
+        <button onclick="Value()">0</button>
+        <button onclick="Value()">.</button>
+        <button onclick="totalResult()" id="btn">=</button>
+
+    </div>
+
+    <script>
+        function Value(value) {
+            document.getElementById('result').value
+        }
+
+        function clearResult() {
+            document.getElementById('result').value 
+        }
+
+        function totalResult() {
+            document.getElementById('result').value
+        }
+    </script>
+</body>
+
+</html>
