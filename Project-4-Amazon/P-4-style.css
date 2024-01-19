@@ -173,7 +173,7 @@ section {
     top: 0;
     left: 0;
     opacity: 0;
-    animation: fade 20s infinite;
+    animation: fade 30s infinite;
 }
 
 .slide:nth-child(1) {

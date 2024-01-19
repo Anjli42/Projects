@@ -539,10 +539,11 @@ h1 {
 }
 
 .Grid img {
+  width: 120px;
   position: absolute;
   opacity: 0.6;
-  right: -13%;
-  bottom: -11%;
+  right: 0%;
+  bottom: 0%;
 }
 
 span {
@@ -766,9 +767,10 @@ footer {
   margin: 0 80px;
 }
 
-.f-icons img {
-  width: 20%;
-  margin: 0 4px;
+.f-icons i {
+  color: white;
+  font-size: 20px;
+  margin: 0 8px;
 }
 
 .f-2 {

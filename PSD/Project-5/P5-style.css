@@ -1,0 +1,474 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans";
+}
+
+header {
+  display: block;
+}
+
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 45px;
+}
+
+ul li {
+  list-style-type: none;
+  font-size: 20px;
+  padding: 22px 0;
+}
+
+section {
+  display: block;
+}
+
+#Section-1 {
+  display: flex;
+  padding: 40px 0;
+}
+
+.Sec-1 {
+  width: 50%;
+  padding: 20px 0 0 80px;
+  color: #000000;
+}
+
+.Sec-1 h1 {
+  font-size: 92px;
+  font-weight: bold;
+  padding: 0 88px;
+}
+
+.Sec-1 p {
+  font-size: 21px;
+  padding: 40px 92px;
+}
+
+.btn-1 {
+  width: 20%;
+  padding: 6px 0;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #f2cd5d;
+  border: 3px solid #000000;
+  margin: 10px 92px;
+}
+
+.Sec-2 {
+  width: 50%;
+}
+
+.Sec-2 img {
+  width: 85%;
+}
+
+#Section-2 {
+  padding: 72px 40px;
+}
+
+.Sec-Part {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.Sec-3-Img {
+  height: 60%;
+  text-align: center;
+}
+
+.Sec-3-Text {
+  height: 40%;
+  padding-top: 25px;
+  text-align: center;
+}
+
+.Sec-3-Text h3 {
+  font-weight: bold;
+}
+
+#Section-3 {
+  display: flex;
+}
+
+.Sec-4 {
+  width: 70%;
+}
+
+.Sec-5 {
+  padding: 99px 99px;
+  margin-top: 55px;
+  margin-right: 99px;
+  color: #000000;
+}
+
+.Sec-5 h1 {
+  font-size: 75px;
+  font-weight: bolder;
+  padding-bottom: 50px;
+}
+
+.Sec-5 p {
+  font-size: 18px;
+  padding-right: 99px;
+  margin-right: 8px;
+  padding-bottom: 30px;
+}
+
+.Sec-5 a {
+  color: #000000;
+}
+
+#Section-4 {
+  padding: 0 40px 60px 40px;
+  position: relative;
+}
+
+.Sec-6-Text {
+  color: #000000;
+  text-align: center;
+  margin: 0 99px;
+  padding: 60px 99px;
+}
+
+.Sec-6-Text h1 {
+  font-size: 55px;
+  font-weight: bolder;
+  padding-bottom: 20px;
+}
+
+.Sec-6-Text p {
+  font-size: 18px;
+  margin: 0 99px;
+  padding: 0 40px;
+}
+
+.Menu-Box {
+  color: #000000;
+  font-family: "Open Sans";
+  display: flex;
+  width: 100%;
+  gap: 45px;
+  padding-bottom: 99px;
+}
+
+.Box-Left {
+  width: 40%;
+}
+
+.Box-Left img {
+  width: 100%;
+}
+
+.Box-Right {
+  width: 60%;
+  background-color: white;
+}
+
+.Box-Right h2 {
+  font-size: 32px;
+  font-weight: 400;
+  color: #010101;
+  margin: 0 11px;
+  padding: 13px;
+}
+
+.Box-Right p {
+  font-size: 12px;
+  font-weight: bold;
+  margin: 0 21px;
+  padding: 5px;
+}
+
+.Box-Right .btn-3 {
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  border: none;
+  width: 102px;
+  height: 28px;
+  margin: 12px 29px;
+  background-color: #f2cd5d;
+  border: 2px solid #000000;
+}
+
+.Menu-Box-1 {
+  display: flex;
+  width: 33.33%;
+  height: 235px;
+  border: 2px solid white;
+  filter: drop-shadow(11.437px 17.612px 12px rgba(12, 13, 12, 0.1));
+  background-color: #ffffff;
+}
+
+.Pagination {
+  position: absolute;
+  bottom: 14%;
+  left: 48%;
+}
+
+.Store {
+  padding-top: 40px;
+  display: block;
+  font-family: "Open Sans";
+  color: #000000;
+}
+
+.Text-Store {
+  text-align: center;
+}
+
+.Text-Store h1 {
+  font-size: 55px;
+  font-weight: bolder;
+  padding: 35px 0 5px;
+}
+
+.Text-Store p {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 45px;
+  padding: 30px;
+}
+
+.Store-Box {
+  display: flex;
+  width: 80%;
+  height: 580px;
+  margin: 0 auto;
+  gap: 35px;
+  color: #000000;
+  font-family: "Open Sans";
+  filter: drop-shadow(11.437px 17.612px 12px rgba(12, 13, 12, 0.1));
+}
+
+.Store-Box-1 {
+  width: 33.33%;
+  position: relative;
+}
+
+.Box-Top {
+  width: 100%;
+  height: 50%;
+}
+
+.Box-Top img {
+  width: 100%;
+}
+
+.Box-Bottom {
+  width: 100%;
+  height: 44%;
+  background-color: #ffffff;
+  text-align: center;
+  padding-top: 62px;
+}
+
+.Box-Bottom h2 {
+  font-size: 20px;
+  position: absolute;
+  left: 28%;
+  top: 48%;
+  height: 40px;
+  width: 172px;
+  font-weight: bold;
+  border: 2px solid #000000;
+  background-color: #eb7f4e;
+}
+
+.Box-Bottom p {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+
+.Box-Bottom .btn-3 {
+  width: 98px;
+  height: 28px;
+  font-weight: bold;
+  background-color: #f2cd5d;
+  border: 2px solid #000000;
+}
+
+#Section-6 {
+  padding-top: 80px;
+  position: relative;
+  font-family: "Open Sans";
+  color: #000000;
+}
+
+.Profile-Item {
+  display: flex;
+}
+
+.Left-P {
+  width: 50%;
+  margin: 40px 60px;
+  position: relative;
+}
+
+.m-1 {
+  position: absolute;
+  top: 38%;
+  left: 48%;
+}
+
+.Right-P {
+  width: 50%;
+  margin: 40px;
+  padding: 50px 6px;
+}
+
+.Right-P h2 {
+  font-size: 48px;
+  font-weight: bolder;
+  margin-bottom: 28px;
+  margin: 68px 0 32px;
+}
+
+.Right-P p {
+  font-size: 20px;
+  margin-bottom: 28px;
+  margin: 34px 9px 34px;
+}
+
+.Profile-Icon img {
+  margin: 7px 16px;
+}
+
+#Section-7 {
+  padding-top: 50px;
+  color: #000000;
+  font-family: "Open Sans";
+}
+
+.Contact-Us {
+  display: flex;
+  width: 100%;
+}
+
+.Details-1 {
+  width: 40%;
+}
+
+.Details-2 {
+  width: 60%;
+  padding: 30px 0 0 96px;
+}
+
+.Details-2 h1 {
+  font-size: 55px;
+  font-weight: 400;
+  margin-bottom: 12px;
+  padding: 32px 0px 42px 36px;
+}
+
+.Form {
+  padding: 4px 0px 46px 38px;
+}
+
+input[type*="text"] {
+  width: 70%;
+  height: 40px;
+  padding: 23px;
+  color: #b0b0b0;
+  font-weight: 400;
+  margin: 10px 0;
+}
+
+textarea {
+  padding: 20px;
+  color: #b0b0b0;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.btn-4 {
+  width: 175px;
+  height: 40px;
+  font-size: 18px;
+  background-color: #f2cd5d;
+  border: 2px solid #000000;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 40px;
+}
+
+footer {
+  display: block;
+}
+
+.Footer-Item {
+  display: flex;
+  background-color: #eb7f4e;
+  padding: 40px;
+  color: #000000;
+  font-family: "Open Sans";
+}
+
+.F-Left {
+  width: 25%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.Image {
+  padding: 70px 0;
+}
+
+.F-Left .Text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 25px;
+  padding: 6px 0;
+}
+
+.F-Left .Text h2 {
+margin: 0 0 45px;
+}
+
+.F-Left .Text p {
+  margin: 0 0 45px;
+  font-weight: 400;
+}
+
+.F-Left .Text a {
+  text-decoration: none;
+  font-weight: 400;
+  color: #000000;
+}
+
+
+.F-Center {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.F-Center .Text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 33px;
+}
+
+.F-Right {
+  width: 25%;
+  padding: 0 0 0 30px;
+}
+
+.F-Right .Text {
+  font-size: 14px;
+  line-height: 29px;
+  font-weight: 400;
+}
+
+.F-Right .Image-2 {
+  margin: 25px 0;
+}
+
+.Image-2 img {
+  margin: 0 10px;
+}

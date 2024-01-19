@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <title>Task-8</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+    }
+
+    body {
+      width: 25%;
+      margin: 0 auto;
+    }
+
+    .Box-1 {
+      border: 1px solid rgb(210, 209, 209);
+      text-align: center;
+    }
+
+    .Box-1 img {
+      width: 50%;
+      padding: 40px 0;
+      margin: 0 50px;
+    }
+
+    label {
+      color: #606770;
+    }
+
+    input {
+      width: 80%;
+      padding: 10px 7px;
+      margin: 3px 0;
+      border: 1px solid rgb(217, 215, 215);
+      background-color: rgb(244, 243, 243);
+      border-radius: 2px;
+      /* position: absolute;
+      top: 10px;
+      font-size: 15px;
+      font-weight: lighter;
+      color: grey; */
+    }
+
+    /* .Box{
+            position: relative;
+            width: 220px;
+            border: 1px solid black;
+    } */
+
+        #btn-2{
+            position: absolute;
+            display: none;
+            bottom: 5px;
+            right: 5px;
+        }
+
+    .btn-1 {
+      width: 80%;
+      margin: 10px 0;
+      padding: 7px 0;
+      background-color: rgb(102, 174, 225);
+      border: none;
+      color: white;
+      font-weight: bold;
+      border-radius: 7px;
+    }
+
+    .para {
+      display: flex;
+      justify-content: center;
+      color: rgb(123, 122, 122);
+    }
+
+    .p-1 {
+      padding-bottom: 25px;
+    }
+
+    .p-2 {
+      margin: 6px 12px;
+      padding-bottom: 25px;
+    }
+
+    a {
+      color: #385185;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: bold;
+    }
+
+    .p-3 {
+      font-size: 13px;
+      padding: 20px 0;
+      cursor: pointer;
+    }
+
+    .Box-2 {
+      display: flex;
+      justify-content: center;
+      margin-top: 14px;
+      border: 1px solid rgb(210, 209, 209);
+      padding: 20px 0;
+      gap: 4px;
+    }
+
+    .p-4 {
+      font-size: 16px;
+    }
+
+    h4 {
+      color: #0095F6;
+      cursor: pointer;
+    }
+
+    .p-5 {
+     text-align: center;
+     padding: 20px 0;
+    }
+
+    .Icons {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+    }
+
+
+  </style>
+</head>
+
+<body>
+  <div class="Box-1">
+    <img src="Img/Instagram.png" alt="" />
+    <input type="text" id="uname" oninput="UserName(this, uname)" placeholder="Phone number, username, or email" />
+    <input type="text" id="upw" oninput="UserPw(this, upw)" placeholder="Password"><br>
+    <button id="btn-2" onclick="ShowPw()">Show</button>
+    <button class="btn-1">Log In</button>
+    <div class="para">
+      <p class="p-1">_________________
+      <p class="p-2">OR</p>_________________</p>
+    </div>
+    <a href="#"><i class="fa fa-facebook-official" style="font-size: 20px; color: #385185; padding: 0 8px;"></i>Log in
+      with Facebook</a>
+    <p class="p-3">Forgot password?</p>
+  </div>
+
+  <div class="Box-2">
+    <p class="p-4">Don't have an account?</p>
+    <h4>Sign up</h4>
+  </div>
+
+  <div class="Box-3">
+    <p class="p-5">Get the app.</p>
+    <div class="Icons">
+      <img src="Img/icon-1.png" alt="" width= "30%">
+      <img src="Img/icon-2.png" alt="" width= "30%">
+    </div>
+  </div>
+
+  <script>
+      function uname(a, b) {
+            if (a.value == '') {
+                document.getElementById(b).style.position = 'absolute'
+                document.getElementById(b).style.top = '10px'
+                document.getElementById('btn-2').style.display = 'none'
+
+                console.log(a);
+                console.log(b);
+            }else{
+                document.getElementById(b).style.top = '0px'
+                document.getElementById('btn-2').style.display = 'block'
+                console.log(a);
+                console.log(b);
+
+
+            }
+        }
+        function ShowPw() {
+            let inpData = document.getElementById('upw');
+            if (inpData.type == 'password') {
+                inpData.type = 'text'
+            }else{
+                inpData.type = 'password'
+
+            }
+        }
+  </script>
+</body>
+
+</html>
