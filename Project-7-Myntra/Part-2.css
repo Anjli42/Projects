@@ -259,6 +259,10 @@ section {
   display: block;
 }
 
+#Section-1 {
+  padding-top: 88px;
+}
+
 .Sec {
   width: 30%;
   padding: 20px 30px;
@@ -392,6 +396,7 @@ span {
 .Sec-4-Parts {
   display: flex;
   gap: 10px;
+  padding-bottom: 20px;
 }
 
 .Main-Part {
