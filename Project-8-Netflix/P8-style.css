@@ -2,13 +2,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
-  /* font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif; */
+  font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
 }
 
 header {
   display: block;
-  height: 820px;
+  height: 700px;
 }
 
 header::before {
@@ -19,17 +18,16 @@ header::before {
       rgba(0, 0, 0, 0.8) 100%
     ),
     url(Img/bg.jpg) no-repeat;
-  background-size: 100% 100%;
   position: absolute;
   width: 100%;
-  height: 820px;
+  height: 700px;
   z-index: -1;
 }
 
 nav {
   display: flex;
-  justify-content: space-around;
-  padding: 20px 0;
+  padding: 18px 0;
+  justify-content: space-evenly;
 }
 
 .nav-1 {
@@ -37,36 +35,53 @@ nav {
 }
 
 .nav-1 img {
-  width: 25%;
+  width: 24%;
 }
 
 .nav-2 {
   display: flex;
-  color: white;
   position: relative;
+  gap: 25px;
 }
 
 select {
-  width: 30%;
-  padding: 8px 10px;
+  padding: 8px 12px 8px 26px;
+  background: rgba(22,22,22,0.7);
+  border-color: rgba(128,128,128,0.7);
+  color: white;
+  border-radius: 8px;
+  font-weight: 600;
 }
 
-.nav-2 img {
+.nav-2 svg {
+  width: 10%;
   position: absolute;
-  top: 27%;
+  top: 18%;
   left: 2%;
+  color: white;
+}
+
+.btn-1 {
+  padding: 8px 20px 8px 20px;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  border: none;
+  background-color: #e50914;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 .Main-Text {
   color: white;
   text-align: center;
-  padding-top: 99px;
+  padding-top: 85px;
   position: relative;
 }
 
 .Main-Text h1 {
   font-size: 50px;
-  font-weight: bolder;
+  font-weight: 900;
   padding: 99px 0 28px 0;
 }
 
@@ -86,24 +101,12 @@ select {
   padding: 20px 0;
 }
 
-input {
-  width: 25%;
-  padding: 15px;
-  background-color: rgba(22, 22, 22, 0.7);
-  border: 1px solid rgba(128, 128, 128, 0.7);
-  border-radius: 4px;
-  color: white;
-  font-size: 14px;
-  font-weight: bold;
-}
-
 .Main-Text i {
   position: absolute;
   right: 32%;
-  bottom: 8%;
+  bottom: 34px;
   font-size: 20px;
 }
-
 
 .Gap {
   background-color: #232323;
@@ -117,7 +120,7 @@ section {
 
 #Section-1 {
   display: flex;
-  padding: 40px 40px 99px 40px;
+  padding: 40px 40px 60px 40px;
 }
 
 .Sec-1 {
@@ -128,7 +131,7 @@ section {
 
 .Sec-1 h2 {
   font-size: 50px;
-  font-weight: bolder;
+  font-weight: 900;
   padding: 99px 0 0 76px;
   margin-left: 50px;
 }
@@ -153,14 +156,14 @@ section {
 .Sec-2 video {
   position: absolute;
   top: 20%;
-  right: 26%;
+  right: 22%;
   z-index: -1;
   overflow: hidden;
 }
 
 #Section-2 {
   display: flex;
-  padding: 70px 40px 99px 40px;
+  padding: 70px 40px 60px 40px;
 }
 
 .Sec-3 {
@@ -182,7 +185,7 @@ section {
   border: 2px solid rgba(128, 128, 128, 0.7);
   box-shadow: 0 0 2em 0 rgb(0, 0, 0);
   border-radius: 12px;
-  padding: 12px;
+  padding: 8px;
   position: absolute;
   bottom: 5%;
   left: 32%;
@@ -193,12 +196,12 @@ section {
 }
 
 .Box-Img img {
-  width: 95%;
+  width: 90%;
 }
 
 .Box-Text {
   width: 60%;
-  padding: 18px 10px;
+  padding: 16px 10px;
 }
 
 .Box-Text p {
@@ -211,7 +214,7 @@ section {
 
 .Box-Icon img {
   width: 80%;
-  padding-top: 18px;
+  padding-top: 12px;
   margin-left: 5px;
 }
 
@@ -223,7 +226,7 @@ section {
 
 .Sec-4 h2 {
   font-size: 50px;
-  font-weight: bolder;
+  font-weight: 900;
   padding: 99px 0 0 0;
   margin-left: 5px;
 }
@@ -237,7 +240,7 @@ section {
 #Section-3 {
   display: flex;
   justify-content: space-evenly;
-  padding: 80px 40px 99px 45px;
+  padding: 80px 40px 60px 45px;
 }
 
 .Sec-5 {
@@ -248,7 +251,7 @@ section {
 
 .Sec-5 h2 {
   font-size: 50px;
-  font-weight: bolder;
+  font-weight: 900;
   padding: 99px 0 0 76px;
   margin-left: 50px;
 }
@@ -303,7 +306,7 @@ section {
 
 .Sec-8 h2 {
   font-size: 50px;
-  font-weight: bolder;
+  font-weight: 900;
   padding: 99px 0 0 0;
   margin-left: 5px;
 }
@@ -321,7 +324,7 @@ section {
 #Section-5 h1 {
   font-size: 50px;
   color: white;
-  font-weight: bolder;
+  font-weight: 900;
   text-align: center;
   padding-bottom: 20px;
 }
@@ -330,16 +333,12 @@ section {
   position: relative;
 }
 
-#icon {
+i[id*="icon"] {
   position: absolute;
   right: 15%;
-  top: 13%;
+  top: 3%;
   font-size: 50px;
   cursor: pointer;
-}
-
-#icon:active {
-  transform: rotate(-50deg);
 }
 
 #btn-2 {
@@ -355,13 +354,17 @@ section {
   cursor: pointer;
 }
 
-#para {
+#btn-2:hover {
+  background-color: #3f3f3f;
+}
+
+p[id*="para"] { 
   display: none;
   background-color: rgb(45, 45, 45);
   border: none;
   color: white;
   width: 75%;
-  margin: 10px auto;
+  margin: 0 auto;
   padding: 25px 20px;
   font-size: 25px;
 }
@@ -399,7 +402,7 @@ section {
 input {
   width: 25%;
   padding: 15px;
-  background-color: transparent;
+  background-color: rgba(22, 22, 22, 0.7);
   border: 1px solid rgba(128, 128, 128, 0.7);
   border-radius: 4px;
   color: white;
@@ -416,6 +419,44 @@ input {
 
 footer {
   background-color: black;
+  color: #FFFFFFB3;
+  font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+
+.footer {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.Footer-p {
+  padding-top: 75px;
+}
+
+.Footer-p a{
+  color: #FFFFFFB3;
+}
+
+.Footer {
+  display: flex;
+  justify-content: space-between;
+  text-decoration: underline;
+  padding: 16px 99px 16px 0;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.Footer-1 p {
+  padding: 10px 0;
+}
+
+.Footer-2 svg{
+  left: -40px;
+  top: 8px;
+}
+
+.Footer-3 {
+  padding: 20px 0 80px 0;
+  font-size: 14px;
 }
 
 

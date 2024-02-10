@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-  <title>Task-8</title>
+  <title>Instagram Login</title>
   <style>
     * {
       margin: 0;
@@ -18,7 +18,7 @@
 
     body {
       width: 25%;
-      margin: 0 auto;
+      margin: 20px auto;
     }
 
     .Box-1 {
@@ -30,6 +30,7 @@
       width: 50%;
       padding: 40px 0;
       margin: 0 50px;
+      cursor: pointer;
     }
 
     label {
@@ -42,26 +43,10 @@
       margin: 3px 0;
       border: 1px solid rgb(217, 215, 215);
       background-color: rgb(244, 243, 243);
-      border-radius: 2px;
-      /* position: absolute;
-      top: 10px;
-      font-size: 15px;
-      font-weight: lighter;
-      color: grey; */
+      border-radius: 2px;     
     }
 
-    /* .Box{
-            position: relative;
-            width: 220px;
-            border: 1px solid black;
-    } */
 
-        #btn-2{
-            position: absolute;
-            display: none;
-            bottom: 5px;
-            right: 5px;
-        }
 
     .btn-1 {
       width: 80%;
@@ -72,6 +57,7 @@
       color: white;
       font-weight: bold;
       border-radius: 7px;
+      cursor: pointer;
     }
 
     .para {
@@ -94,12 +80,18 @@
       text-decoration: none;
       font-size: 14px;
       font-weight: bold;
+      cursor: pointer;
     }
 
     .p-3 {
-      font-size: 13px;
       padding: 20px 0;
+    }
+
+    .p-3 a {
+      font-size: 13px;
+      font-weight: 400;
       cursor: pointer;
+      color: #00376B;
     }
 
     .Box-2 {
@@ -115,7 +107,7 @@
       font-size: 16px;
     }
 
-    h4 {
+    h4 a {
       color: #0095F6;
       cursor: pointer;
     }
@@ -129,6 +121,7 @@
       display: flex;
       justify-content: center;
       gap: 10px;
+      cursor: pointer;
     }
 
 
@@ -138,22 +131,21 @@
 <body>
   <div class="Box-1">
     <img src="Img/Instagram.png" alt="" />
-    <input type="text" id="uname" oninput="UserName(this, uname)" placeholder="Phone number, username, or email" />
-    <input type="text" id="upw" oninput="UserPw(this, upw)" placeholder="Password"><br>
-    <button id="btn-2" onclick="ShowPw()">Show</button>
+    <input type="text" id="uname" placeholder="Phone number, Username, or Email" />
+    <input type="text" id="upw" placeholder="Password"><br>
     <button class="btn-1">Log In</button>
     <div class="para">
       <p class="p-1">_________________
       <p class="p-2">OR</p>_________________</p>
     </div>
-    <a href="#"><i class="fa fa-facebook-official" style="font-size: 20px; color: #385185; padding: 0 8px;"></i>Log in
+    <a href="P10-Fb-Login.html" target="_self"><i class="fa fa-facebook-official" style="font-size: 20px; color: #385185; padding: 0 8px;"></i>Log in
       with Facebook</a>
-    <p class="p-3">Forgot password?</p>
+    <p class="p-3"><a href="P10-ResetPw.html" target="_self">Forgot password?</a></p>
   </div>
 
   <div class="Box-2">
     <p class="p-4">Don't have an account?</p>
-    <h4>Sign up</h4>
+    <h4><a href="P10-SignUp.html" target="_self">Sign up</a></h4>
   </div>
 
   <div class="Box-3">
@@ -164,34 +156,6 @@
     </div>
   </div>
 
-  <script>
-      function uname(a, b) {
-            if (a.value == '') {
-                document.getElementById(b).style.position = 'absolute'
-                document.getElementById(b).style.top = '10px'
-                document.getElementById('btn-2').style.display = 'none'
-
-                console.log(a);
-                console.log(b);
-            }else{
-                document.getElementById(b).style.top = '0px'
-                document.getElementById('btn-2').style.display = 'block'
-                console.log(a);
-                console.log(b);
-
-
-            }
-        }
-        function ShowPw() {
-            let inpData = document.getElementById('upw');
-            if (inpData.type == 'password') {
-                inpData.type = 'text'
-            }else{
-                inpData.type = 'password'
-
-            }
-        }
-  </script>
 </body>
 
 </html>
