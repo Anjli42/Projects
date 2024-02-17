@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: henderson-bcg-sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.navbar {
+  position: sticky;
+  top: 0px;
+  left: 0px;
+  z-index: 999;
+  background-color: #FFFFFF;
+}
+
+.carousel-item img {
+  height: 600px;
+}
+
+.carousel-control-prev {
+  left: -70px;
+}
+
+.carousel-control-next {
+  right: -70px;
+}
+
+.carousel-item {
+  position: relative;
+}
+
+.carousel-content {
+  position: absolute;
+  top: 40%;
+  left: 10%;
+}
+
+.display-3,
+.display-5,
+.display-4,
+.display-6 {
+  color: white;
+  font-weight: 600;
+}
+
+.C-text {
+  position: relative;
+}
+
+.C-text::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 26%;
+  height: 2px;
+  background: #00a8ff;
+  left: 37%;
+  bottom: -26%;
+}
+
+.shadow-sm {
+  box-shadow: 0 0.125rem 0.25rem #00000052 !important;
+}
+
+.blockquote-card-title {
+  font-size: 17px;
+}
+
+.blockquote-card-text {
+  font-size: 14px;
+}
+
+.hover-img {
+  position: relative;
+}
+
+.hover-img::after {
+  content: "";
+  position: absolute;
+  width: 401px;
+  height: 260px;
+  top: 0;
+  left: 15px;
+  background: rgba(0, 0, 0, 0.6);
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.hover-img:hover:after{
+  opacity: 0.7;
+}
+
+.hover-text {
+  display: none;
+}
+
+.hover-img:hover .hover-text {
+  display: block;
+  color: #FFFFFF !important;
+  font-size: 22px;
+  font-weight: 900;
+  opacity: 1;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.hover-text a {
+  font-size: 15px;
+  color: white;
+  text-decoration: none;
+  position: absolute;
+  right: 20%;
+}
+
+.fa.rounded-circle,
+.fa.rounded {
+  display: inline-block;
+  font-size: inherit;
+  font-weight: 100;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  background-color: #F8F9FA;
+}
+
+.bg-o-color-2 {
+  background-color: #685563 !important;
+  color: #FFFFFF;
+}
+
+.fa {
+  font-family: "FontAwesome" !important;
+}
+
+.fa-clock-o:before {
+  content: "\f017";
+}
+
+.border-bottom {
+  border-bottom: 1px solid #343434 !important;
+}
+
+.ul-flex {
+  font-size: 18px;
+  text-decoration: none;
+  color: #585757;
+}
+
+.ul-flex:hover {
+  text-decoration: underline;
+}
+
+footer {
+  color: rgba(232, 231, 231, 0.7);
+}
+
+.flag {
+  width: 1em;
+  height: 1em;
+  margin-right: 0.2em;
+  border-radius: 50rem;
+  object-fit: cover;
+}
+
+
