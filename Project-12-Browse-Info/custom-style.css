@@ -10,7 +10,7 @@
   top: 0px;
   left: 0px;
   z-index: 999;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .carousel-item img {
@@ -72,31 +72,21 @@
 
 .hover-img {
   position: relative;
+  cursor: pointer;
 }
 
-.hover-img::after {
-  content: "";
-  position: absolute;
-  width: 401px;
-  height: 260px;
-  top: 0;
-  left: 15px;
-  background: rgba(0, 0, 0, 0.6);
-  opacity: 0;
-  transition: all 0.5s;
-}
-
-.hover-img:hover:after{
-  opacity: 0.7;
+.hover-img:hover img {
+  filter: brightness(70%);
 }
 
 .hover-text {
   display: none;
+  position: relative;
 }
 
 .hover-img:hover .hover-text {
   display: block;
-  color: #FFFFFF !important;
+  color: #ffffff !important;
   font-size: 22px;
   font-weight: 900;
   opacity: 1;
@@ -115,6 +105,16 @@
   right: 20%;
 }
 
+.hover-text a:hover {
+  text-decoration: 2px underline white;
+}
+
+.hover-text i {
+  position: absolute;
+  bottom: -22px;
+  right: 60px;
+}
+
 .fa.rounded-circle,
 .fa.rounded {
   display: inline-block;
@@ -124,12 +124,12 @@
   height: 50px;
   line-height: 50px;
   text-align: center;
-  background-color: #F8F9FA;
+  background-color: #f8f9fa;
 }
 
 .bg-o-color-2 {
   background-color: #685563 !important;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .fa {
@@ -165,5 +165,3 @@ footer {
   border-radius: 50rem;
   object-fit: cover;
 }
-
-

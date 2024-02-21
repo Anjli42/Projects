@@ -48,6 +48,21 @@
         cursor: pointer;
       }
 
+      h2 {
+        display: flex;
+        width: 60%;
+        margin-left: 30px;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+      }
+
+      #R1,
+      #R2,
+      #R3 {
+        width: 20%;
+      }
+
       #Result {
         border: 2px solid black;
         width: 60%;
@@ -67,13 +82,12 @@
       <label for="to">To :</label>
       <input type="date" id="to" value=""><br /><br />
       
-      <button id="btn" onclick="Calculate()">Calculate</button>
+      <button id="btn" onclick="Result()">Calculate</button>
 
       <div id="Result">
-        <div id="R1"></div>
-        <div id="R1"></div>
-        <div id="R1"></div>
-        <div id="R1"></div>
+        <h2>TotalDays = <div id="R1"></div></h2>
+        <h2>TotalMonths = <div id="R2"></div></h2>
+        <h2>TotalYears = <div id="R3"></div></h2>
       </div>
 
 
