@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lightbox Gallery Pattern-2</title>
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+    crossorigin="anonymous"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/baguettebox.js@1.11.0/dist/baguetteBox.min.css"
+  />
+</head>
+<body>
+
+  <div class="container-fluid my-2 gallery-container">
+    <div class="row row-cols-3 g-4 my-2">
+      <div class="col-4">
+        <a href="imgs/img-1.jpg" data-caption="Image 1">
+          <img src="imgs/img-1.jpg" class="img-fluid" alt="Image 1">
+        </a>
+      </div>
+      <div class="col-4">
+        <a href="imgs/img-2.jpg" data-caption="Image 2">
+          <img src="imgs/img-2.jpg" class="img-fluid" alt="Image 2">
+        </a>
+      </div>
+      <div class="col-4">
+        <a href="imgs/img-3.jpg" data-caption="Image 3">
+          <img src="imgs/img-3.jpg" class="img-fluid" alt="Image 3">
+        </a>
+      </div>
+      <div class="col-4">
+        <a href="imgs/img-4.jpg" data-caption="Image 4">
+          <img src="imgs/img-4.jpg" class="img-fluid" alt="Image 4">
+        </a>
+      </div>
+      <div class="col-4">
+        <a href="imgs/img-5.jpg" data-caption="Image 5">
+          <img src="imgs/img-5.jpg" class="img-fluid" alt="Image 5">
+        </a>
+      </div>
+      <div class="col-4">
+        <a href="imgs/img-6.jpg" data-caption="Image 6">
+          <img src="imgs/img-6.jpg" class="img-fluid" alt="Image 6">
+        </a>
+      </div>
+      <div class="col-4">
+        <a href="imgs/img-7.jpg" data-caption="Image 7">
+          <img src="imgs/img-7.jpg" class="img-fluid" alt="Image 7">
+        </a>
+      </div>
+      <div class="col-4">
+        <a href="imgs/img-8.jpg" data-caption="Image 8">
+          <img src="imgs/img-8.jpg" class="img-fluid" alt="Image 8">
+        </a>
+      </div>
+      <div class="col-4">
+        <a href="imgs/img-9.jpg" data-caption="Image 9">
+          <img src="imgs/img-9.jpg" class="img-fluid" alt="Image 9">
+        </a>
+      </div>
+    </div>
+  </div>
+  
+
+  <script
+    src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/baguettebox.js@1.11.0/dist/baguetteBox.min.js"
+  ></script>
+  <script>
+    baguetteBox.run('.gallery-container', {
+    buttons: false,
+    
+});
+  </script>
+</body>
+</html>
