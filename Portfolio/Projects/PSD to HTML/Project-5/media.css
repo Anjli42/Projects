@@ -1,0 +1,893 @@
+/* Media (max-width: 992px)  */
+
+@media (max-width: 992px) {
+
+.Sec-1 {
+  padding: 34px 86px 0 40px;
+}
+
+.Sec-1 h1 {
+  font-size: 40px;
+  padding: 0 99px 0 70px;
+}
+
+.Sec-1 p {
+  font-size: 16px;
+  padding: 20px 0 20px 72px;
+}
+
+.btn-1 {
+  width: 26%;
+  padding: 5px 0;
+  font-size: 12px;
+  margin: 4px 75px;
+}
+
+.Sec-4 img {
+  width: 470px;
+}
+
+.Sec-5 {
+  padding: 0 99px 0 48px;
+  margin: 88px 0;
+}
+
+.Sec-5 h1 {
+  font-size: 42px;
+  padding: 0 82px 18px 0;
+}
+
+.Sec-5 p {
+  font-size: 17px;
+  padding: 0 0 16px 0;
+  margin: 0;
+}
+
+.Sec-5 a {
+  font-size: 17px;
+}
+
+#Section-4 {
+  padding: 0;
+}
+
+.Sec-6-Text {
+  padding: 30px 0;
+}
+
+.Sec-6-Text h1 {
+  font-size: 42px;
+}
+
+.Sec-6-Text p {
+  font-size: 17px;
+  margin: 0;
+  padding: 0;
+}
+
+.Menu-Box {
+  width: 98%;
+  margin: 0 auto;
+  gap: 10px;
+}
+
+.Menu-Box-1 {
+  height: 166px;
+}
+
+.Box-Right {
+  padding: 15px 0;
+}
+
+.Box-Right h2 {
+  font-size: 17px;
+  margin: 0 12px;
+  padding: 0;
+}
+
+.Box-Right p {
+  font-size: 10px;
+  margin: 6px 0 6px 12px;
+  padding: 0;
+}
+
+.Box-Right .btn-3 {
+  font-size: 10px;
+  width: 72px;
+  height: 20px;
+  margin: 4px 13px;
+}
+
+.Pagination {
+  bottom: 4%;
+}
+
+.Text-Store h1 {
+  font-size: 40px;
+  padding: 0;
+}
+
+.Text-Store p {
+  font-size: 16px;
+  padding: 10px 0 0 0;
+}
+
+.Store-Box {
+height: 282px;
+}
+
+.Box-Top {
+  height: 68%;
+}
+
+.Box-Bottom {
+  padding-top: 30px;
+  height: 58%;
+}
+
+.Box-Bottom h2 {
+  font-size: 13px;
+  left: 25%;
+  top: 63%;
+  height: 23px;
+  width: 119px;
+}
+
+.Box-Bottom p {
+  font-size: 14px;
+  line-height: 22px;
+  margin-bottom: 14px;
+}
+
+.Pagination {
+  bottom: 8%;
+}
+
+#Section-6 {
+  padding-top: 99px;
+}
+
+.Left-P {
+  width: 50%;
+  margin: 20px 0;
+}
+
+.Left-P img {
+  width: 520px;
+}
+
+.m-1 {
+  width: 38px !important;
+  top: 39%;
+  left: 48%;
+}
+
+.Right-P {
+  width: 50%;
+  margin: 0;
+  padding: 85px 0 0 40px;
+}
+
+.Right-P h2 {
+  font-size: 35px;
+  margin: 0;
+  padding: 10px 0;
+}
+
+.Right-P p {
+  font-size: 16px;
+  margin: 0;
+  padding: 0 2px;
+}
+
+.Profile-Icon img {
+  width: 25px;
+  margin: 12px 10px;
+}
+
+#Section-7 {
+  padding: 0;
+}
+
+.Details-1 {
+  width: 50%;
+}
+
+.Details-1 img {
+  width: 100%;
+  height: 100%;
+}
+
+.Details-2 {
+  padding: 0;
+  margin-top: 80px;
+}
+
+.Details-2 h1 {
+  font-size: 30px;
+  margin: 0;
+  padding: 0 0 10px 30px;
+}
+
+.Form {
+  padding-left: 30px;
+}
+
+input[type*="text"] {
+  width: 72%;
+  height: 10px;
+  padding: 15px;
+  margin: 4px 0;
+  font-size: 13px;
+}
+
+textarea {
+  padding: 12px;
+  margin-top: 4px;
+  width: 452px;
+  height: 150px;
+  font-size: 13px;
+}
+
+.btn-4 {
+  width: 118px;
+  height: 28px;
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+.F-Right {
+  padding: 0 0 0 12px;
+}
+}
+
+/* Media (max-width: 768px)  */
+
+@media (max-width: 768px) {
+  .Sec-1 {
+    padding: 34px 35px 0 12px;
+  }
+
+  .Sec-1 h1 {
+    font-size: 32px;
+    padding: 0 99px 0 70px;
+  }
+
+  .Sec-1 p {
+    font-size: 15px;
+    padding: 20px 0 20px 72px;
+  }
+
+  .btn-1 {
+    width: 26%;
+    padding: 5px 0;
+    font-size: 12px;
+    margin: 4px 75px;
+  }
+
+  .Sec-4 img {
+    width: 370px;
+  }
+
+  .Sec-5 {
+    padding: 0 29px 0 40px;
+    margin: 70px 0;
+  }
+
+  .Sec-5 h1 {
+    font-size: 32px;
+    padding: 0 82px 18px 0;
+  }
+
+  .Sec-5 p {
+    font-size: 14px;
+    padding: 0 0 16px 0;
+    margin: 0;
+  }
+
+  .Sec-5 a {
+    font-size: 14px;
+  }
+
+  #Section-4 {
+    padding: 0;
+  }
+
+  .Sec-6-Text {
+    padding: 30px 0;
+  }
+
+  .Sec-6-Text h1 {
+    font-size: 30px;
+  }
+
+  .Sec-6-Text p {
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .Menu-Box {
+    flex-direction: column;
+    width: 100%;
+    gap: 30px;
+  }
+
+  .Menu-Box-1 {
+    width: 58%;
+    height: 186px;
+    margin: 0 auto;
+  }
+
+  .Box-Left img {
+    width: 80%;
+  }
+
+  .Box-Right {
+    padding: 18px 0;
+  }
+
+  .Box-Right h2 {
+    font-size: 18px;
+    margin: 0 12px;
+    padding: 0;
+  }
+
+  .Box-Right p {
+    font-size: 13px;
+    margin: 6px 0 6px 12px;
+    padding: 0;
+  }
+
+  .Box-Right .btn-3 {
+    font-size: 11px;
+    width: 78px;
+    height: 25px;
+    margin: 4px 13px;
+  }
+
+  .Pagination {
+    bottom: 7%;
+  }
+
+  #Section-5 {
+    padding-bottom: 99px;
+    margin-bottom: 99px;
+  }
+
+  .Store {
+    padding-bottom: 99px;
+    margin-bottom: 99px;
+  }
+
+  .Text-Store h1 {
+    font-size: 30px;
+    padding: 0;
+  }
+
+  .Text-Store p {
+    font-size: 13px;
+    padding: 10px 0 0 0;
+  }
+
+  .Store-Box {
+    flex-direction: column;
+    width: 100%;
+    gap: 22px;
+  }
+
+  .Store-Box-1 {
+    width: 40%;
+    margin: 0 auto;
+  }
+
+  .Box-Top {
+    height: 62%;
+  }
+
+  .Box-Bottom {
+    padding: 0;
+    height: 37%;
+  }
+  .Box-Bottom h2 {
+    font-size: 16px;
+    position: absolute;
+    left: 28%;
+    top: 61%;
+    height: 28px;
+    width: 132px;
+  }
+
+  .Box-Bottom p {
+    padding-top: 38px;
+    font-size: 13px;
+    line-height: 15px;
+    margin-bottom: 10px;
+  }
+
+  .Box-Bottom .btn-3 {
+    font-size: 13px;
+    width: 85px;
+    height: 22px;
+    margin-bottom: 10px;
+  }
+
+  #Section-6 {
+    padding-top: 99px;
+    margin-top: 99px;
+  }
+
+  .Profile-Item {
+    padding-top: 99px;
+    margin-top: 99px;
+  }
+
+  .Left-P {
+    width: 50%;
+    margin: 20px 0;
+  }
+
+  .Left-P img {
+    width: 410px;
+  }
+
+  .m-1 {
+    width: 38px !important;
+    top: 37%;
+    left: 48%;
+  }
+
+  .Right-P {
+    width: 50%;
+    margin: 0;
+    padding: 60px 0 0 40px;
+  }
+
+  .Right-P h2 {
+    font-size: 25px;
+    margin: 0;
+    padding: 10px 0;
+  }
+
+  .Right-P p {
+    font-size: 14px;
+    margin: 0;
+    padding: 0 2px;
+  }
+
+  .Profile-Icon img {
+    width: 25px;
+    margin: 11px 10px;
+  }
+
+  #Section-7 {
+    padding: 0;
+  }
+
+  .Details-1 {
+    width: 48%;
+  }
+
+  .Details-1 img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .Details-2 {
+    padding: 0;
+    margin-top: 38px;
+  }
+
+  .Details-2 h1 {
+    font-size: 25px;
+    margin: 0;
+    padding: 0 0 10px 30px;
+  }
+
+  .Form {
+    padding-left: 30px;
+  }
+
+  input[type*="text"] {
+    width: 72%;
+    height: 10px;
+    padding: 15px;
+    margin: 4px 0;
+    font-size: 13px;
+  }
+
+  textarea {
+    padding: 12px;
+    margin-top: 4px;
+    width: 370px;
+    height: 130px;
+    font-size: 13px;
+  }
+
+  .btn-4 {
+    width: 118px;
+    height: 28px;
+    font-size: 13px;
+    margin-top: 10px;
+  }
+
+  .Footer-Item {
+    padding: 25px 15px;
+  }
+
+  .Image {
+    padding: 30px 0;
+  }
+
+  .Image img {
+    width: 50px;
+  }
+
+  .F-Left .Text {
+    font-size: 12px;
+    line-height: 16px;
+    padding: 0;
+  }
+
+  .F-Left .Text h2 {
+    margin: 0 0 14px;
+  }
+
+  .F-Left .Text p {
+    margin: 0 0 14px;
+  }
+
+  .F-Center .Text {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .F-Right {
+    padding: 0 0 0 16px;
+  }
+
+  .F-Right .Text {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .F-Right .Image-2 {
+    margin: 5px 0;
+  }
+
+  .Image-2 img {
+    margin: 0 6px;
+  }
+}
+
+/* Media (max-width: 576px)  */
+
+@media (max-width: 576px) {
+  .Sec-1 {
+    padding: 20px 10px 0 0;
+  }
+
+  .Sec-1 h1 {
+    font-size: 20px;
+    padding: 0 99px 0 70px;
+  }
+
+  .Sec-1 p {
+    font-size: 12px;
+    padding: 20px 0 20px 72px;
+  }
+
+  .btn-1 {
+    width: 23%;
+    padding: 2px 0;
+    font-size: 9px;
+    margin: 4px 75px;
+  }
+
+  #Section-2 {
+    padding: 50px 0;
+  }
+
+  .Sec-3-Img {
+    width: 60%;
+    margin-left: 40px;
+  }
+
+  .Sec-3-Text {
+    padding-top: 18px;
+  }
+
+  .Sec-3-Text h3 {
+    font-size: 13px;
+  }
+
+  .Sec-3-Text p {
+    font-size: 10px;
+  }
+
+  .Sec-4 img {
+    width: 250px;
+  }
+
+  .Sec-5 {
+    padding: 0 40px;
+    margin: 40px 0;
+  }
+
+  .Sec-5 h1 {
+    font-size: 20px;
+    padding: 0 82px 18px 0;
+  }
+
+  .Sec-5 p {
+    font-size: 10px;
+    padding: 0 0 16px 0;
+    margin: 0;
+  }
+
+  .Sec-5 a {
+    font-size: 10px;
+  }
+
+  #Section-4 {
+    padding: 0;
+  }
+
+  .Sec-6-Text {
+    padding: 30px 0;
+  }
+
+  .Sec-6-Text h1 {
+    font-size: 18px;
+  }
+
+  .Sec-6-Text p {
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .Menu-Box {
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+  }
+
+  .Menu-Box-1 {
+    width: 55%;
+    height: 133px;
+    margin: 0 auto;
+  }
+
+  .Box-Right {
+    padding: 2px 0;
+  }
+
+  .Box-Right h2 {
+    font-size: 14px;
+    margin: 0 12px;
+    padding: 0;
+  }
+
+  .Box-Right p {
+    font-size: 10px;
+    margin: 6px 0 6px 12px;
+    padding: 0;
+  }
+
+  .Box-Right .btn-3 {
+    font-size: 8px;
+    width: 66px;
+    height: 18px;
+    margin: 4px 13px;
+  }
+
+  .Pagination {
+    bottom: 7%;
+  }
+
+  #Section-5 {
+    padding-bottom: 99px;
+  }
+
+  .Store {
+    padding-bottom: 99px;
+    margin-bottom: 99px;
+  }
+
+  .Text-Store h1 {
+    font-size: 18px;
+    padding: 0;
+  }
+
+  .Text-Store p {
+    font-size: 10px;
+    padding: 10px 0 0 0;
+  }
+
+  .Store-Box {
+    flex-direction: column;
+    width: 100%;
+    gap: 5px;
+  }
+
+  .Store-Box-1 {
+    width: 40%;
+    margin: 0 auto;
+  }
+
+  .Box-Top {
+    height: 54%;
+  }
+
+  .Box-Bottom {
+    padding: 0;
+    height: 40%;
+  }
+  .Box-Bottom h2 {
+    font-size: 11px;
+    position: absolute;
+    left: 24%;
+    top: 54%;
+    height: 23px;
+    width: 115px;
+  }
+
+  .Box-Bottom p {
+    padding-top: 38px;
+    font-size: 10px;
+    line-height: 15px;
+    margin-bottom: 10px;
+  }
+
+  .Box-Bottom .btn-3 {
+    font-size: 10px;
+    width: 85px;
+    height: 22px;
+    margin-bottom: 10px;
+  }
+
+  #Section-6 {
+    padding-top: 99px;
+    margin-top: 99px;
+  }
+
+  .Profile-Item {
+    padding-top: 99px;
+    margin-top: 99px;
+  }
+
+  .Left-P {
+    width: 50%;
+    margin: 20px 0;
+  }
+
+  .Left-P img {
+    width: 325px;
+  }
+
+  .m-1 {
+    width: 30px !important;
+    top: 35%;
+    left: 51%;
+  }
+
+  .Right-P {
+    width: 50%;
+    margin: 0;
+    padding: 60px 0 0 40px;
+  }
+
+  .Right-P h2 {
+    font-size: 14px;
+    margin: 0;
+    padding: 10px 0;
+  }
+
+  .Right-P p {
+    font-size: 10px;
+    margin: 0;
+    padding: 0 2px;
+  }
+
+  .Profile-Icon img {
+    width: 20px;
+    margin: 9px 10px;
+  }
+
+  #Section-7 {
+    padding: 0;
+  }
+
+  .Details-1 img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .Details-2 {
+    padding: 0;
+    margin-top: 30px;
+  }
+
+  .Details-2 h1 {
+    font-size: 14px;
+    margin: 0;
+    padding: 0 0 10px 30px;
+  }
+
+  .Form {
+    padding-left: 30px;
+  }
+
+  input[type*="text"] {
+    width: 65%;
+    height: 10px;
+    padding: 15px;
+    margin: 4px 0;
+    font-size: 10px;
+  }
+
+  textarea {
+    padding: 12px;
+    margin-top: 4px;
+    width: 290px;
+    height: 112px;
+    font-size: 10px;
+  }
+
+  .btn-4 {
+    width: 110px;
+    height: 22px;
+    font-size: 10px;
+    margin-top: 10px;
+  }
+
+  .Footer-Item {
+    padding: 12px 18px;
+    gap: 10px;
+  }
+
+  .Image {
+    padding: 30px 0;
+  }
+
+  .Image img {
+    width: 40px;
+  }
+
+  .F-Left .Text {
+    font-size: 10px;
+    line-height: 16px;
+    padding: 0;
+  }
+
+  .F-Left .Text h2 {
+    margin: 0 0 14px;
+  }
+
+  .F-Left .Text p {
+    margin: 0 0 14px;
+  }
+
+  .F-Center .Text {
+    font-size: 10px;
+    line-height: 18px;
+  }
+
+  .F-Right {
+    padding: 0 0 0 16px;
+  }
+
+  .F-Right .Text {
+    font-size: 10px;
+    line-height: 16px;
+  }
+
+  .F-Right .Image-2 {
+    margin: 5px 0;
+  }
+
+  .Image-2 img {
+    margin: 0 6px;
+  }
+}

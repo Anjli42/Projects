@@ -1,0 +1,462 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+
+header {
+  display: block;
+  height: 700px;
+}
+
+header::before {
+  content: "";
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.8) 0,
+      rgba(15, 15, 15, 0) 80%,
+      rgba(0, 0, 0, 0.8) 100%
+    ),
+    url(Img/bg.jpg) no-repeat;
+  position: absolute;
+  width: 100%;
+  height: 700px;
+  z-index: -1;
+}
+
+nav {
+  display: flex;
+  padding: 18px 0;
+  justify-content: space-evenly;
+}
+
+.nav-1 {
+  width: 50%;
+}
+
+.nav-1 img {
+  width: 24%;
+}
+
+.nav-2 {
+  display: flex;
+  position: relative;
+  gap: 25px;
+}
+
+select {
+  padding: 8px 12px 8px 26px;
+  background: rgba(22,22,22,0.7);
+  border-color: rgba(128,128,128,0.7);
+  color: white;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.nav-2 svg {
+  width: 10%;
+  position: absolute;
+  top: 18%;
+  left: 2%;
+  color: white;
+}
+
+.btn-1 {
+  padding: 8px 20px 8px 20px;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  border: none;
+  background-color: #e50914;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.Main-Text {
+  color: white;
+  text-align: center;
+  padding-top: 85px;
+  position: relative;
+}
+
+.Main-Text h1 {
+  font-size: 50px;
+  font-weight: 900;
+  padding: 99px 0 28px 0;
+}
+
+.Main-Text p {
+  font-size: 25px;
+  padding-bottom: 28px;
+}
+
+.Main-Text h3 {
+  font-size: 20px;
+}
+
+.Input {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px 0;
+}
+
+.Main-Text i {
+  position: absolute;
+  right: 32%;
+  bottom: 34px;
+  font-size: 20px;
+}
+
+.Gap {
+  background-color: #232323;
+  padding: 5px 0;
+}
+
+section {
+  display: block;
+  background-color: black;
+}
+
+#Section-1 {
+  display: flex;
+  padding: 40px 40px 60px 40px;
+}
+
+.Sec-1 {
+  width: 50%;
+  color: white;
+  padding: 50px 20px 0 0;
+}
+
+.Sec-1 h2 {
+  font-size: 50px;
+  font-weight: 900;
+  padding: 99px 0 0 76px;
+  margin-left: 50px;
+}
+
+.Sec-1 p {
+  font-size: 25px;
+  padding: 15px 0 0 85px;
+  margin-left: 42px;
+}
+
+.Sec-2 {
+  width: 50%;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.Sec-2 img {
+  width: 84%;
+}
+
+.Sec-2 video {
+  position: absolute;
+  top: 20%;
+  right: 22%;
+  z-index: -1;
+  overflow: hidden;
+}
+
+#Section-2 {
+  display: flex;
+  padding: 70px 40px 60px 40px;
+}
+
+.Sec-3 {
+  width: 50%;
+  position: relative;
+  padding-left: 99px;
+  margin-left: 20px;
+}
+
+.Sec-3 img {
+  width: 100%;
+}
+
+.Box {
+  width: 50%;
+  display: flex;
+  color: white;
+  background-color: black;
+  border: 2px solid rgba(128, 128, 128, 0.7);
+  box-shadow: 0 0 2em 0 rgb(0, 0, 0);
+  border-radius: 12px;
+  padding: 8px;
+  position: absolute;
+  bottom: 5%;
+  left: 32%;
+}
+
+.Box-Img {
+  width: 20%;
+}
+
+.Box-Img img {
+  width: 90%;
+}
+
+.Box-Text {
+  width: 60%;
+  padding: 16px 10px;
+}
+
+.Box-Text p {
+  color: #0071eb;
+}
+
+.Box-Icon {
+  width: 20%;
+}
+
+.Box-Icon img {
+  width: 80%;
+  padding-top: 12px;
+  margin-left: 5px;
+}
+
+.Sec-4 {
+  width: 50%;
+  color: white;
+  padding: 50px 0 0 0;
+}
+
+.Sec-4 h2 {
+  font-size: 50px;
+  font-weight: 900;
+  padding: 99px 0 0 0;
+  margin-left: 5px;
+}
+
+.Sec-4 p {
+  font-size: 25px;
+  padding: 15px 99px 0 0;
+  margin-left: 10px;
+}
+
+#Section-3 {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 80px 40px 60px 45px;
+}
+
+.Sec-5 {
+  width: 50%;
+  color: white;
+  padding: 50px 20px 0 0;
+}
+
+.Sec-5 h2 {
+  font-size: 50px;
+  font-weight: 900;
+  padding: 99px 0 0 76px;
+  margin-left: 50px;
+}
+
+.Sec-5 p {
+  font-size: 25px;
+  padding: 15px 0 0 85px;
+  margin-left: 42px;
+}
+
+.Sec-6 {
+  width: 50%;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.Sec-6 img {
+  width: 84%;
+}
+
+.Sec-6 video {
+  width: 54%;
+  position: absolute;
+  top: 11%;
+  right: 31%;
+  z-index: -1;
+  overflow: hidden;
+}
+
+#Section-4 {
+  display: flex;
+  padding: 70px 40px 65px 40px;
+}
+
+.Sec-7 {
+  width: 50%;
+  position: relative;
+  padding-left: 99px;
+  margin-left: 20px;
+}
+
+.Sec-7 img {
+  width: 100%;
+}
+
+.Sec-8 {
+  width: 50%;
+  color: white;
+  padding: 50px 0 0 0;
+}
+
+.Sec-8 h2 {
+  font-size: 50px;
+  font-weight: 900;
+  padding: 99px 0 0 0;
+  margin-left: 5px;
+}
+
+.Sec-8 p {
+  font-size: 25px;
+  padding: 15px 99px 0 0;
+  margin-left: 10px;
+}
+
+#Section-5 {
+  padding: 80px 0;
+}
+
+#Section-5 h1 {
+  font-size: 50px;
+  color: white;
+  font-weight: 900;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.Content {
+  position: relative;
+}
+
+i[id*="icon"] {
+  position: absolute;
+  right: 15%;
+  top: 3%;
+  font-size: 50px;
+  cursor: pointer;
+}
+
+#btn-2 {
+  width: 75%;
+  display: block;
+  margin: 10px auto;
+  background-color: rgb(45, 45, 45);
+  border: none;
+  color: white;
+  text-align: left;
+  padding: 25px 20px;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+#btn-2:hover {
+  background-color: #3f3f3f;
+}
+
+p[id*="para"] { 
+  display: none;
+  background-color: rgb(45, 45, 45);
+  border: none;
+  color: white;
+  width: 75%;
+  margin: 0 auto;
+  padding: 25px 20px;
+  font-size: 25px;
+}
+
+.btn-3 {
+  padding: 10px 60px 10px 20px;
+  color: white;
+  font-size: 25px;
+  font-weight: bolder;
+  border: none;
+  background-color: #e50914;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: sans-serif;
+}
+
+.btn-3:hover {
+  background-color: rgb(193, 17, 25);
+}
+
+.Email-Text {
+  color: white;
+  text-align: center;
+  padding-top: 50px;
+  position: relative;
+}
+
+.Input {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px 0;
+}
+
+input {
+  width: 25%;
+  padding: 15px;
+  background-color: rgba(22, 22, 22, 0.7);
+  border: 1px solid rgba(128, 128, 128, 0.7);
+  border-radius: 4px;
+  color: white;
+  font-size: 14px;
+  font-weight: bolder;
+}
+
+.Email-Text i {
+  position: absolute;
+  right: 32%;
+  bottom: 21%;
+  font-size: 20px;
+}
+
+footer {
+  background-color: black;
+  color: #FFFFFFB3;
+  font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+
+.footer {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.Footer-p {
+  padding-top: 75px;
+}
+
+.Footer-p a{
+  color: #FFFFFFB3;
+}
+
+.Footer {
+  display: flex;
+  justify-content: space-between;
+  text-decoration: underline;
+  padding: 16px 99px 16px 0;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.Footer-1 p {
+  padding: 10px 0;
+}
+
+.Footer-2 svg{
+  left: -40px;
+  top: 8px;
+}
+
+.Footer-3 {
+  padding: 20px 0 80px 0;
+  font-size: 14px;
+}
+
+

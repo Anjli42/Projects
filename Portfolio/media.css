@@ -1,0 +1,351 @@
+/* Media (max-width: 1200px)  */
+
+@media (max-width: 1200px) {
+  .nav-icons {
+    font-size: 18px;
+  }
+
+  iframe {
+    width: 250px;
+  }
+
+  .Det-Item {
+    overflow: scroll;
+  }
+}
+
+/* Media (max-width: 992px)  */
+
+@media (max-width: 992px) {
+  .nav-icons {
+    font-size: 9px;
+  }
+
+  .nav-1 h2 {
+    font-size: 22px;
+  }
+
+  iframe {
+    width: 190px;
+  }
+}
+
+/* Media (max-width: 768px)  */
+
+@media (max-width: 768px) {
+  .nav-1 h2 {
+    font-size: 18px;
+  }
+
+  .nav-2 {
+    font-size: 12px;
+  }
+
+  .nav-icons {
+    font-size: 10px;
+  }
+
+  .nav-icons a {
+    padding: 2px;
+  }
+
+  .Home p {
+    font-size: 18px;
+  }
+
+  .Home h2 {
+    font-size: 40px;
+  }
+
+  .btn-1 {
+    padding: 6px 14px;
+    font-size: 14px;
+  }
+
+  .Col-box {
+    height: 165px;
+  }
+
+  .Details-Boxes {
+    padding: 0 10px;
+    gap: 9px;
+  }
+
+  iframe {
+    width: 118px;
+  }
+}
+
+/* Media (max-width: 576px)  */
+
+@media (max-width: 576px) {
+  .nav-1 h2 {
+    font-size: 8px;
+  }
+
+  .nav-2 {
+    font-size: 8px;
+  }
+
+  .nav-icons {
+    font-size: 8px;
+  }
+
+  .nav-icons a {
+    padding: 3px;
+  }
+
+  .nav-icons i {
+    padding: 6px 2px;
+  }
+
+  #About h2,
+  .Skills h2,
+  #Resume h2,
+  #Portfolio h2,
+  #Contact h2 {
+    font-size: 12px;
+  }
+
+  .About-Part p {
+    font-size: 10px;
+  }
+
+  .About-Part li {
+    font-size: 10px;
+  }
+
+  .Col-2 h3 {
+    font-size: 10px;
+  }
+
+  .Details-Boxes {
+    font-size: 10px;
+  }
+
+  #Skills ul li {
+    font-size: 10px;
+  }
+
+  .skillbar {
+    height: 9px;
+  }
+
+  .P-Boxes h3 {
+    font-size: 10px;
+  }
+
+  .Col-box {
+    height: 92px;
+  }
+
+  .Home p {
+    font-size: 10px;
+  }
+
+  .Home h2 {
+    font-size: 25px;
+  }
+
+  .btn-1 {
+    padding: 4px 10px;
+    font-size: 10px;
+  }
+
+  .Details-Boxes {
+    padding: 0 10px;
+    gap: 9px;
+  }
+
+  iframe {
+    width: 80px;
+    height: 160px;
+  }
+
+  .About,
+  .Row-2,
+  #Skill-Progress,
+  .Row-box {
+      padding: 40px 0;
+  }
+
+  .Details-1 {
+    padding: 20px;
+  }
+
+  .Details-2 {
+    padding: 20px;
+  }
+
+  .Det-Item {
+    gap: 7px;
+    padding: 10px 0;
+  }
+
+  .Det-Icons {
+    font-size: 9px;
+    padding: 8px 10px;
+  }
+
+  .Det-Text {
+    font-size: 9px;
+  }
+
+  label {
+    font-size: 9px;
+  }
+
+  input,
+  textarea {
+    padding: 0px 0px;
+  }
+
+  textarea {
+    height: 80px;
+  }
+
+  button {
+    padding: 3px 6px;
+    font-size: 9px;
+  }
+}
+
+/* Media (max-width: 400px)  */
+
+@media (max-width: 400px) {
+    .nav-1 h2 {
+      font-size: 6px;
+    }
+  
+    .nav-2 {
+      font-size: 6px;
+    }
+  
+    .nav-icons {
+      font-size: 6px;
+    }
+  
+    .nav-icons a {
+      padding: 3px;
+    }
+  
+    .nav-icons i {
+      padding: 6px 2px;
+    }
+  
+    #About h2,
+    .Skills h2,
+    #Resume h2,
+    #Portfolio h2,
+    #Contact h2 {
+      font-size: 10px;
+    }
+  
+    .About-Part p {
+      font-size: 8px;
+    }
+  
+    .About-Part li {
+      font-size: 8px;
+      overflow: scroll;
+    }
+
+    .About,
+    .Row-2,
+    #Skill-Progress,
+    .Row-box {
+        padding: 40px 0;
+    }
+  
+    .Col-2 h3 {
+      font-size: 8px;
+    }
+  
+    .Details-Boxes {
+      font-size: 8px;
+    }
+  
+    #Skills ul li {
+      font-size: 8px;
+    }
+  
+    .skillbar {
+      height: 8px;
+    }
+  
+    .P-Boxes h3 {
+      font-size: 8px;
+    }
+  
+    .Col-box {
+      height: 70px;
+    }
+  
+    .Home p {
+      font-size: 8px;
+    }
+  
+    .Home h2 {
+      font-size: 16px;
+    }
+  
+    .btn-1 {
+      padding: 4px 10px;
+      font-size: 7px;
+    }
+  
+    .Details-Boxes {
+      padding: 0 10px;
+      gap: 9px;
+    }
+  
+    iframe {
+      width: 40px;
+      height: 140px;
+    }
+  
+    .Details-1 {
+      padding: 20px;
+    }
+
+    .Contact-Details {
+        gap: 20px;
+        padding: 50px 0px 20px 0px;
+    }
+  
+    .Details-2 {
+      padding: 20px;
+    }
+  
+    .Det-Item {
+      gap: 7px;
+      padding: 10px 0;
+    }
+  
+    .Det-Icons {
+      font-size: 6px;
+      padding: 8px 10px;
+    }
+  
+    .Det-Text {
+      font-size: 7px;
+    }
+  
+    label {
+      font-size: 7px;
+    }
+  
+    input,
+    textarea {
+      padding: 0px 0px;
+    }
+  
+    textarea {
+      height: 60px;
+    }
+  
+    button {
+      padding: 3px 6px;
+      font-size: 7px;
+    }
+  }
